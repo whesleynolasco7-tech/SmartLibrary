@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function renderResults(results) {
-    const defaultCover = `${base}/assets/images/covers/default-cover.svg`;
+    const defaultCover = `${base}/assets/images/covers/default-cover.png`;
     container.innerHTML = results.map((b, i) => `
       <div class="gb-card" data-index="${i}">
         <img src="${b.thumbnail || defaultCover}" alt="">

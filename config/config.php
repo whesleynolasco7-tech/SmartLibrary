@@ -34,8 +34,8 @@ define('UPLOAD_AVATAR_DIR', BASE_PATH . '/uploads/avatars/');
 define('UPLOAD_COVER_URL', BASE_URL . '/uploads/covers/');
 define('UPLOAD_AVATAR_URL', BASE_URL . '/uploads/avatars/');
 
-define('DEFAULT_COVER', BASE_URL . '/assets/images/covers/default-cover.svg');
-define('DEFAULT_AVATAR', BASE_URL . '/assets/images/avatars/default-avatar.svg');
+define('DEFAULT_COVER', BASE_URL . '/assets/images/covers/default-cover.png');
+define('DEFAULT_AVATAR', BASE_URL . '/assets/images/avatars/default-avatar.png');
 
 // ------------------------------
 // Google Books API
