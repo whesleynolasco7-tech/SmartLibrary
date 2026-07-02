@@ -172,7 +172,7 @@ Student
 
 <br>
 
-juan.delacruz@student.edu
+whes@student.edu
 
 <br>
 
