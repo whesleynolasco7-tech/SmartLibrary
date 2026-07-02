@@ -1,0 +1,24 @@
+# XAMPP
+xampp/
+
+# Images uploaded by users (optional)
+uploads/
+
+# VS Code
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Composer
+/vendor/
+
+# Node
+node_modules/
