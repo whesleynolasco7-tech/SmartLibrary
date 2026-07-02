@@ -10,18 +10,17 @@ function navActive(string $file, string $current): string
 <aside class="sidebar" id="sidebar">
 
     <div class="brand">
-
-        <div class="brand-icon">
-            <img src="<?= BASE_URL ?>/assets/images/logo.png" alt="Smart Library Logo">
-        </div>
-
-        <div class="brand-text">
-            <strong>Smart Library</strong>
-            <span>Management System</span>
-        </div>
-
+    <div class="brand-icon">
+        <img src="<?= BASE_URL ?>/assets/images/logo.png"
+             alt="Smart Library Logo"
+             class="logo-img">
     </div>
 
+    <div class="brand-text">
+        <strong>Smart Library</strong>
+        <span>Management System</span>
+    </div>
+</div>
     <nav class="nav-menu">
 
         <span class="nav-section">Main</span>
