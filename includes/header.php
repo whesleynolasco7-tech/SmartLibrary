@@ -30,7 +30,14 @@ $pageTitle = $pageTitle ?? 'Dashboard';
       <div class="topbar-actions">
         <button class="icon-btn" title="Notifications"><i class="fa-regular fa-bell"></i></button>
         <div class="user-chip" id="userMenuToggle">
-          <img src="<?= DEFAULT_AVATAR ?>" alt="avatar" class="avatar-sm">
+          <?php
+          $avatar = DEFAULT_AVATAR;
+          if (!empty($_SESSION['profile_picture'])) {
+          $avatar = UPLOAD_AVATAR_URL . e($_SESSION['profile_picture']);
+          }
+        ?>
+
+<img src="<?= $avatar ?>" alt="avatar" class="avatar-sm">
           <div class="user-chip-text">
             <strong><?= e($_SESSION['name'] ?? 'User') ?></strong>
             <span><?= e(ucfirst($_SESSION['role'] ?? '')) ?></span>
