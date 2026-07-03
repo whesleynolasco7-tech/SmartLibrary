@@ -40,7 +40,7 @@ define('DEFAULT_AVATAR', BASE_URL . '/assets/images/avatars/default-avatar.png')
 // ------------------------------
 // Google Books API
 // ------------------------------
-define('GOOGLE_BOOKS_API_KEY', ''); // Optional
+define('GOOGLE_BOOKS_API_KEY', 'AIzaSyBL1j8vKxNSMnWFJBPwUviDR8ywvRZK5bg'); // Optional
 define('GOOGLE_BOOKS_API_URL', 'https://www.googleapis.com/books/v1/volumes');
 
 // ------------------------------

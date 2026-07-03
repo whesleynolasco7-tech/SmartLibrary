@@ -7,7 +7,7 @@ $pageTitle = $pageTitle ?? 'Dashboard';
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title><?= e($pageTitle) ?> · MCNP-ISAP Library</title>
+<title><?= e($pageTitle) ?> · Smart Library Management System</title>
 
 <!-- Browser Icon -->
 <link rel="icon" type="image/png" href="<?= BASE_URL ?>/assets/images/logo.png">

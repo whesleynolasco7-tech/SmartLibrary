@@ -21,7 +21,7 @@ function navActive(string $file, string $current): string
 
         <div class="brand-text">
             <strong>MCNP-ISAP</strong>
-            <span>Library Management System</span>
+            <span>Smart Library Management System</span>
         </div>
 
     </div>
@@ -95,7 +95,7 @@ function navActive(string $file, string $current): string
         <i class="fa-solid fa-circle-info"></i>
 
         <span>
-            MCNP-ISAP Library System<br>
+            Smart Library System<br>
             Version 1.0
         </span>
 
